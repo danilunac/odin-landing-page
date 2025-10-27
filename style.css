@@ -92,7 +92,7 @@ p.credit {
 /* Information */
 .main-information {
     text-align: center;
-    padding: 72px 100px;
+    padding: 36px 120px 72px 120px;
 }
 
 .information-title {
@@ -100,7 +100,6 @@ p.credit {
     color: #1F2937;
     font-weight: 900;
     margin-bottom: 32px;
-
 }
 
 .container {
@@ -115,3 +114,26 @@ p.credit {
     max-width: 200px;
 }
 
+/* Quote section */
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 72px 240px;
+}
+
+.quote-text {
+    display: flex;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 16px;
+}
+
+.quote {
+    display: flex;
+    font-size: 24px;
+    font-weight: 900;
+    justify-content: right;
+}
