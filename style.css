@@ -133,3 +133,29 @@ p.credit {
     font-weight: 900;
     text-align: end;
 }
+
+/* Call to action section */
+.container-call-to-action {
+    padding: 72px 120px;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 40px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call-primary-text {
+    font-size: 22px;
+    color: white;
+}
+
+.call-secondary-text {
+    color: white;
+}
+
+.call-btn {
+    border: 2px solid white;
+}
